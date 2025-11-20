@@ -1,0 +1,68 @@
+--- Arduino & PlatformIO ---
+
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+*.elf
+*.bin
+*.hex
+*.map
+
+--- C/C++ Build Artifacts ---
+
+*.o
+*.obj
+*.d
+
+--- LaTeX Build Artifacts (Keep your .tex and final .pdf, ignore the rest) ---
+
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+--- OS Generated Files ---
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+--- Editors & IDEs ---
+
+VS Code
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+IntelliJ / JetBrains
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+--- Local Configuration ---
+
+Ignore file with sensitive credentials if you create one later
+
+secrets.h
+config.h.local
